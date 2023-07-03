@@ -1,0 +1,22 @@
+.maisvendidos__titulo{
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fonte--principal);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.estrelas{
+    margin-bottom: 0.5em;
+}
+
+@media screen and (min-width: 1728px){
+
+    .maisvendidos__titulo{
+        font-size: 32px;
+    }
+
+}
